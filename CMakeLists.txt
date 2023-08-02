@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.24)
 project(minesweeper)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
-add_executable(minesweeper main.cpp Tile.cpp Tile.h Board.cpp Board.h)
+add_executable(minesweeper src/main.cpp src/Tile.cpp src/Tile.h src/Board.cpp src/Board.h)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)

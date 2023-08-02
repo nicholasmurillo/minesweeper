@@ -38,7 +38,7 @@ public:
     void end_game() const;
     void draw(sf::RenderWindow& temp) const;
     Board();
-    Board(const float& num_c, const float& num_r, const float& num_t, const unsigned int& num_m, sf::RenderWindow& game);
+    Board(const float& num_c, const float& num_r, const float& num_t, const unsigned int& num_m);
     ~Board();
 };
 

@@ -16,7 +16,7 @@ Board::~Board() {
     delete[] this->board;
 }
 
-Board::Board(const float& num_c, const float& num_r, const float& num_t, const unsigned int& num_m, sf::RenderWindow& game) {
+Board::Board(const float& num_c, const float& num_r, const float& num_t, const unsigned int& num_m) {
     this->num_cols = (unsigned int)(num_c);
     this->num_rows = (unsigned int)(num_r);
     this->num_tiles = (unsigned int)(num_t);
